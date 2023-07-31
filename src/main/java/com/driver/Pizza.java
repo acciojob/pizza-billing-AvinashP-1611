@@ -56,8 +56,8 @@ public class Pizza {
         if(hasExtraToppings)
             sb.append("Extra Toppings Added: ").append(isVeg ?"70":"120").append("\n");
         if(hasPaperBag)
-            sb.append("Paperbag Added: 20"+"\n");
-        sb.append("Total Price: "+price);
+            sb.append("Paperbag Added: 20").append("\n");
+        sb.append("Total Price: "+price).append("\n");
         return sb.toString();
     }
 }
